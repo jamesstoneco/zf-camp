@@ -1,52 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="60px" height="63px" viewBox="0 -1 60 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
-    <title>icon-circle-calendar</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="ZFC-V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g sketch:type="MSArtboardGroup" transform="translate(-151.000000, -2346.000000)" id="When-&amp;-Where">
-            <g sketch:type="MSLayerGroup" transform="translate(0.000000, 2165.000000)">
-                <g id="icon-circle-calendar" transform="translate(151.000000, 181.000000)" sketch:type="MSShapeGroup">
-                    <circle id="Oval-10-Copy-2" stroke="#BDC3C7" cx="30" cy="30" r="30"></circle>
-                    <circle id="Oval-10-Copy-3" stroke="#1ABC9C" stroke-width="0.5" cx="30" cy="30" r="27"></circle>
-                    <g id="thin-0023_calendar_month_day_planner_events" transform="translate(17.142857, 16.428571)">
-                        <g id="Group" transform="translate(0.428571, 0.428571)" stroke="#66655D">
-                            <rect id="Rectangle-path" x="0.107142857" y="6.53571429" width="24.6428571" height="18.2142857"></rect>
-                            <path d="M11.47425,2.57003571 L7.14225,6.42417857" id="Shape"></path>
-                            <path d="M13.4934643,2.47607143 L17.715,6.42417857" id="Shape"></path>
-                            <circle id="Oval" cx="12.4284643" cy="1.60596429" r="1.36317857"></circle>
-                            <path d="M0.107142857,8 L24.75,8" id="Shape"></path>
-                            <path d="M4.45392857,20 L5.4555,20" id="Shape"></path>
-                            <path d="M7.71289286,20 L8.71457143,20" id="Shape"></path>
-                            <path d="M10.8585,20 L11.8600714,20" id="Shape"></path>
-                            <path d="M14.0731071,20 L15.0746786,20" id="Shape"></path>
-                            <path d="M4.45392857,18 L5.4555,18" id="Shape"></path>
-                            <path d="M7.71289286,18 L8.71457143,18" id="Shape"></path>
-                            <path d="M10.8585,18 L11.8600714,18" id="Shape"></path>
-                            <path d="M14.0731071,18 L15.0746786,18" id="Shape"></path>
-                            <path d="M17.2877143,18 L18.2892857,18" id="Shape"></path>
-                            <path d="M20.5023214,18 L21.5038929,18" id="Shape"></path>
-                            <path d="M4.45392857,16 L5.4555,16" id="Shape"></path>
-                            <path d="M7.71289286,16 L8.71457143,16" id="Shape"></path>
-                            <path d="M10.8585,16 L11.8600714,16" id="Shape"></path>
-                            <path d="M14.0731071,16 L15.0746786,16" id="Shape"></path>
-                            <path d="M17.2877143,16 L18.2892857,16" id="Shape"></path>
-                            <path d="M20.5023214,16 L21.5038929,16" id="Shape"></path>
-                            <path d="M4.45392857,14 L5.4555,14" id="Shape"></path>
-                            <path d="M7.71289286,14 L8.71457143,14" id="Shape"></path>
-                            <path d="M10.8585,14 L11.8600714,14" id="Shape"></path>
-                            <path d="M14.0731071,14 L15.0746786,14" id="Shape"></path>
-                            <path d="M17.2877143,14 L18.2892857,14" id="Shape"></path>
-                            <path d="M20.5023214,14 L21.5038929,14" id="Shape"></path>
-                            <path d="M14.0731071,12 L15.0746786,12" id="Shape"></path>
-                            <path d="M17.2877143,12 L18.2892857,12" id="Shape"></path>
-                            <path d="M20.5023214,12 L21.5038929,12" id="Shape"></path>
-                        </g>
-                        <rect id="Rectangle-path" x="0" y="0" width="25.7142857" height="25.7142857"></rect>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<svg width="63px" height="63px" viewBox="-1 -1 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g stroke="none" fill="none">
+<g transform="translate(-151, -2346)">
+<g transform="translate(0, 2165)">
+<g transform="translate(151, 181)">
+<circle stroke="#BDC3C7" cx="30" cy="30" r="30"></circle>
+<circle stroke="#1ABC9C" stroke-width="0.5" cx="30" cy="30" r="27"></circle>
+<g id="thin-0023_calendar_month_day_planner_events" transform="translate(17.142857, 16.428571)">
+<g transform="translate(0.428571, 0.428571)" stroke="#66655D">
+<rect x="0.107142857" y="6.53571429" width="24.6428571" height="18.2142857"></rect>
+<path d="M11.47425,2.57003571 L7.14225,6.42417857"></path>
+<path d="M13.4934643,2.47607143 L17.715,6.42417857"></path>
+<circle cx="12.4284643" cy="1.60596429" r="1.36317857"></circle>
+<path d="M0.107142857,8 L24.75,8"></path>
+<path d="M4.45392857,20 L5.4555,20"></path>
+<path d="M7.71289286,20 L8.71457143,20"></path>
+<path d="M10.8585,20 L11.8600714,20"></path>
+<path d="M14.0731071,20 L15.0746786,20"></path>
+<path d="M4.45392857,18 L5.4555,18"></path>
+<path d="M7.71289286,18 L8.71457143,18"></path>
+<path d="M10.8585,18 L11.8600714,18"></path>
+<path d="M14.0731071,18 L15.0746786,18"></path>
+<path d="M17.2877143,18 L18.2892857,18"></path>
+<path d="M20.5023214,18 L21.5038929,18"></path>
+<path d="M4.45392857,16 L5.4555,16"></path>
+<path d="M7.71289286,16 L8.71457143,16"></path>
+<path d="M10.8585,16 L11.8600714,16"></path>
+<path d="M14.0731071,16 L15.0746786,16"></path>
+<path d="M17.2877143,16 L18.2892857,16"></path>
+<path d="M20.5023214,16 L21.5038929,16"></path>
+<path d="M4.45392857,14 L5.4555,14"></path>
+<path d="M7.71289286,14 L8.71457143,14"></path>
+<path d="M10.8585,14 L11.8600714,14"></path>
+<path d="M14.0731071,14 L15.0746786,14"></path>
+<path d="M17.2877143,14 L18.2892857,14"></path>
+<path d="M20.5023214,14 L21.5038929,14"></path>
+<path d="M14.0731071,12 L15.0746786,12"></path>
+<path d="M17.2877143,12 L18.2892857,12"></path>
+<path d="M20.5023214,12 L21.5038929,12"></path>
+</g>
+<rect x="0" y="0" width="25.7142857" height="25.7142857"></rect>
+</g>
+</g>
+</g>
+</g>
+</g>
 </svg>

@@ -45,12 +45,12 @@
 
 // * { border: solid 1px #f00; }
 .flush-bottom { margin-bottom: 0; }
+a { font-weight: 400; }
 
 .inline-list.centered {
 	display: table;
 	margin: 0 auto;
 }
-
 
 h2 {
 	font-size: rem-calc(24);
@@ -66,28 +66,28 @@ p.subhead {
 	color: $cool-grey;
 	font-weight: 400;
 	text-align: center;
-
 }
 
 p.leadin {
 	font-size: rem-calc(18);
 	font-weight: 400;
 	margin-bottom: rem-calc(20);
-	&.flush {
-		margin-bottom: rem-calc(5);
-	}
+	&.flush { margin-bottom: rem-calc(5); }
 }
 
+.profile-image {
+	border-radius: 9999px;
+	padding: rem-calc(15);
+	position: realtive;
+}
 
 header {
 	height: rem-calc(650);
-	width: 100%;
-	// background: $secondary-color;
 	background: url('../images/background-hero-image.jpg') $secondary-color;
-	// background-size: auto 100%;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
+		text-align: center;
 	nav {
 		position: relative;
 		height: rem-calc(100);
@@ -116,11 +116,7 @@ header {
 				font-size: rem-calc(14);
 				font-weight: 600;
 				text-transform: uppercase;
-
-				&:hover {
-					color: rgba(#FFF, 0.8);
-
-				}
+				&:hover { color: rgba(#FFF, 0.8); }
 			}
 
 		}
@@ -131,23 +127,20 @@ header {
 			padding: rem-calc(11 30 11 29);
 			font-size: rem-calc(15);
 			font-weight: 600;
-
 		}
 	}
+
 	div.hero {
-		text-align: center;
 		h1, p {
 			color: #FFF;
+		  text-align: center;
 		}
 		h1 {
 			padding-top: rem-calc(177);
 			font-size: rem-calc(28);
 			font-weight: 600;
 		}
-		p { 
-			font-weight: 400;
-		}
-
+		p { font-weight: 400; }
 		a.button {
 			background: none;
 			border-radius: 9999px;
@@ -158,7 +151,6 @@ header {
 		}
 	}
 }
-
 
 section {
 	padding-top: rem-calc(70);
@@ -189,31 +181,15 @@ section.what {
 		background-repeat: no-repeat;
 		width: rem-calc(565); // same as svg box
 		height: rem-calc(358);
-
 	}
-
 }
 
 section.why {
 	background: $light-grey;
-	ul li {
-		margin-bottom: rem-calc(12);
-	}
-
-
+	ul li { margin-bottom: rem-calc(12); }
 }
 
-section.who {
-	p.leadin {
-		padding-top: rem-calc(20);
-	}
-}
-
-.profile-image {
-	border-radius: 9999px;
-	padding: rem-calc(15);
-	position: realtive;
-}
+section.who p.leadin { padding-top: rem-calc(20); }
 
 section.when {
 	background: $light-grey;
@@ -222,12 +198,10 @@ section.when {
 	p { margin-bottom: 0; }
 }
 
-section.included {
-	.button {
+section.included .button {
 		padding: rem-calc(11 30 11 29);
 		font-size: rem-calc(15);
 		font-weight: 600;
-	}
 }
 
 section.signup {
@@ -266,7 +240,3 @@ section.signup {
 		border: solid 1px $info-color;
 	}
 }
-
-
-a { font-weight: 400; }
-
