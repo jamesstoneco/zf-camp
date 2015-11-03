@@ -2,6 +2,8 @@
   "name": "foundation-libsass-template",
   "dependencies": {
     "foundation": "zurb/bower-foundation",
-    "socialite-js": "*"
+    "socialite-js": "*",
+    "wow": "~1.1.2",
+    "motion-ui": "~1.0.3"
   }
 }

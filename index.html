@@ -16,26 +16,26 @@
     <nav>
       <img src="images/zf-camp-logo.svg" alt="">
       <ul>
-        <li><a href="">What</a></li>
-        <li><a href="">Why</a></li>
-        <li><a href="">Who</a></li>
-        <li><a href="">When & Where</a></li>
+        <li><a href="#show-me-what">What</a></li>
+        <li><a href="#show-me-why">Why</a></li>
+        <li><a href="#show-me-who">Who</a></li>
+        <li><a href="#show-me-when">When &amp; Where</a></li>
       </ul>
-      <a href="" class="button info round hollow">Reserve your spot</a>
+      <a data-reveal-id="reserve-your-spot" class="button info round hollow">Reserve your spot</a>
     </nav>
 
     <div class="hero">
 
       <h1>ZURB Foundation Workshop <span class="date">November 14th - 15th, 2015</span></h1>
       <p>Come to Silicon Valley to take the workshop in-person or attend online</p>
-      <a data-reveal-id="reserve-ticket" class="button hollow">Tell me more</a>
+      <a href="#show-me-what" class="button hollow">Tell me more</a>
 
     </div>
     
   </header>
 
 
-  <section class="what">
+  <section class="what" id="show-me-what">
     <h2>What</h2>
     <p class="subhead">What will you learn?</p>
 
@@ -59,7 +59,7 @@
   </section>
 
 
-  <section class="why">
+  <section class="why"id="show-me-why">
     <h2>Why</h2>
     <p class="subhead">Here's why you should join us</p>
     <div class="row">
@@ -69,7 +69,8 @@
           <iframe width="420" height="315" src="https://www.youtube.com/embed/kk6KpKK5Jjc?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
 
-        <p class="text-center">Take a look at a previous workshop</p>
+        <p class="text-center">Take a look at James' Grid Video with 37k+ views</p>
+        <!-- <p class="text-center">Take a look at a previous workshop</p> -->
 
       </div>
       <div class="medium-7 columns">
@@ -91,11 +92,9 @@
   </section>
 
 
-  <section class="who">
+  <section class="who" id="show-me-who">
     <h2>Who</h2>
     <p class="subhead">Meet your instructors</p>
-
-
 
     <div class="row">
       <div class="medium-6 columns">
@@ -108,8 +107,6 @@
             <p>James Stone ( <a href="http://www.twitter.com/jamesstoneco">@jamesstoneco</a> ) wrote ZURB Foundation Blueprints and is a top contributor to ZURB Foundation and is an Adjunct Professor at Penn State. He's created <a href="https://www.youtube.com/user/JamesManOfStone">tons of video tutorials</a> and writes helpful blogs and coding tips. He offers consulting, development, and support services at <a href="https://www.jamesstone.com">jamesstone.com</a>.</p>  
           </div>
         </div>
-
-
 
       </div>
       <div class="medium-6 columns">
@@ -134,19 +131,12 @@
           </div>
         </div>
 
-
-
-
       </div>
     </div>
 
-
-
   </section>
 
-
-
-  <section class="when">
+  <section class="when" id="show-me-when">
     <h2>When &amp; Where</h2>
     <p class="subhead">When &amp; where is the workshop</p>
 
@@ -185,8 +175,8 @@
           <div class="medium-9 columns">
             <p>
               Coding House <br>
-              2995 Woodside Rd #400 Woodside <br>
-              CA 94062
+              46684 Windmill Dr <br>
+              Fremont, CA 94539
             </p>
           </div>
         </div>
@@ -227,7 +217,7 @@
       </div>
     </div>
     <p class="text-center">
-      <a href="" class="button info round">￼Reserve your spot</a>
+      <a data-reveal-id="reserve-your-spot" class="button info round">￼Reserve your spot</a>
     </p>
   </section>
 
@@ -270,16 +260,16 @@
       </div>
     </div>
 
-
-
-
-
-
-
-
   </section>
 
 
+<!-- Size Classes: [small medium large xlarge expand] -->
+<div id="reserve-your-spot" class="reveal-modal" data-reveal>
+  <h2>Awesome. I have it.</h2>
+  <p class="lead">Your couch.  It is mine.</p>
+  <p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
 
 
 
@@ -287,11 +277,9 @@
 
 
 
-  <section 
 
 
-
-  <ul class="social-buttons cf inline-list centered hide">
+<!--   <ul class="social-buttons cf inline-list centered hide">
     <li>
       <a href="http://twitter.com/share" class="socialite twitter-share" data-text="Check out @ZURBFoundation Camp 9/25-26 presented by @JAMESSTONEco at @codinghouse" data-url="http://zurbfoundationcamp.com" data-count="vertical" rel="nofollow" target="_blank"><span class="vhidden">Share on Twitter</span></a>
     </li>
@@ -304,10 +292,8 @@
     <li>
       <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://zurbfoundationcamp.com&title=Check%20out%20ZURB%20Foundation%20Camp%209%2F25-27%20presented%20by%20JamesStone.com%20and%20CodingHouse.co" class="socialite linkedin-share" data-url="http://zurbfoundationcamp.com" data-counter="top" rel="nofollow" target="_blank"><span class="vhidden">Share on LinkedIn</span></a>
     </li>
-  </ul>
+  </ul> -->
 
-  <br>
-  <br>
 
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
