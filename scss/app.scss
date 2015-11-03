@@ -1,8 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+// @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+// @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 
 @import "settings";
-// @import "foundation";
+@import "foundation";
 
 // Or selectively include components
 // @import
@@ -11,21 +11,21 @@
 // @import "foundation/components/block-grid";
 // @import "foundation/components/breadcrumbs";
 // @import "foundation/components/button-groups";
-@import "foundation/components/buttons";
+// @import "foundation/components/buttons";
 // @import "foundation/components/clearing";
 // @import "foundation/components/dropdown";
 // @import "foundation/components/dropdown-buttons";
-@import "foundation/components/flex-video";
+// @import "foundation/components/flex-video";
 // @import "foundation/components/forms";
-@import "foundation/components/grid";
-@import "foundation/components/inline-lists";
+// @import "foundation/components/grid";
+// @import "foundation/components/inline-lists";
 // @import "foundation/components/joyride";
 // @import "foundation/components/keystrokes";
 // @import "foundation/components/labels";
 // @import "foundation/components/magellan";
 // @import "foundation/components/orbit";
 // @import "foundation/components/pagination";
-@import "foundation/components/panels";
+// @import "foundation/components/panels";
 // @import "foundation/components/pricing-tables";
 // @import "foundation/components/progress-bars";
 // @import "foundation/components/reveal";
@@ -33,48 +33,101 @@
 // @import "foundation/components/split-buttons";
 // @import "foundation/components/sub-nav";
 // @import "foundation/components/switches";
-@import "foundation/components/tables";
+// @import "foundation/components/tables";
 // @import "foundation/components/tabs";
 // @import "foundation/components/thumbs";
 // @import "foundation/components/tooltips";
 // @import "foundation/components/top-bar";
-@import "foundation/components/type";
+// @import "foundation/components/type";
 // @import "foundation/components/offcanvas";
-@import "foundation/components/visibility";
+// @import "foundation/components/visibility";
 
 
-.flush-bottom {
-	margin-bottom: 0;
-}
-
-section.hero {
-	.button.right {
-		margin-right: rem-calc(15);
-	}
-	padding-top: rem-calc(20);
-	padding-bottom: rem-calc(50);
-	margin-bottom: rem-calc(30);
-	background: #333;
-	h1, h2, h3, h4, h5, h6, p {
-		color: #FFF;
-	}
-}
-
-.background-primary {
-	padding-top: rem-calc(20);
-	padding-bottom: rem-calc(15);
-	margin-top: rem-calc(45);
-	margin-bottom: rem-calc(45);
-
-	background: $primary-color;
-	h1, h2, h3, h4, h5, h6, p {
-		color: #FFF;
-	}
-}
-
+// * { border: solid 1px #f00; }
+.flush-bottom { margin-bottom: 0; }
 
 .inline-list.centered {
-     display: table;
-     margin: 0 auto;
+	display: table;
+	margin: 0 auto;
+}
 
+
+header {
+	height: rem-calc(650);
+	width: 100%;
+	// background: $secondary-color;
+	background: url('../images/background-hero-image.jpg') $secondary-color;
+	// background-size: auto 100%;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	nav {
+		position: relative;
+		height: rem-calc(100);
+		img {
+			position: absolute;
+			left: rem-calc(50);
+			top: rem-calc(36);
+		}
+		ul {
+			list-style:none;
+			    margin:0;
+			    padding: 0;
+			padding-top: rem-calc(63);
+			text-align:center;
+			li { 
+				display:inline;
+			    margin:0;
+			    padding: 0;
+				 }
+			a {
+			    display:inline-block;
+			    padding-left: rem-calc(20);
+			    padding-right: rem-calc(20);
+			    margin:0;
+			    color: #FFF;
+			    font-size: rem-calc(14);
+			    font-weight: 600;
+					text-transform: uppercase;
+
+			    &:hover {
+			    	color: rgba(#FFF, 0.8);
+			    	
+			    }
+			}
+
+		}
+		a.button {
+			position:absolute;
+			right: rem-calc(49);
+			top: rem-calc(51);
+			padding: rem-calc(11 30 11 29);
+			font-size: rem-calc(15);
+											    font-weight: 600;
+
+		}
+	}
+	section.hero {
+		text-align: center;
+		h1, p {
+		color: #FFF;
+		 }
+		h1 {
+			padding-top: rem-calc(177);
+			font-size: rem-calc(28);
+			font-weight: 600;
+		}
+		p { 
+			font-weight: 400;
+		}
+
+		a.button {
+			background: none;
+			border-radius: 9999px;
+			border: solid 1px #FFF;
+			font-size: rem-calc(15);
+			padding: rem-calc(11 47 11 47);
+			font-weight: 600;
+		}
+	}
 }

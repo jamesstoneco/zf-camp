@@ -80,20 +80,22 @@ $include-html-global-classes: $include-html-classes;
 // $include-xl-html-grid-classes: false;
 
 // $row-width: rem-calc(1000);
+$row-width: rem-calc(1139);
 // $total-columns: 12;
 // $column-gutter: rem-calc(30);
+$column-gutter: rem-calc(90);
 
 // c. Global
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // We use these to define default font stacks
-$font-family-sans-serif: 'Open Sans', Helvetica, Roboto, Arial, sans-serif;
-$font-family-serif: 'Roboto Slab', Georgia, Cambria, "Times New Roman", Times, serif;
+$font-family-sans-serif: "proxima-nova", Helvetica, Roboto, Arial, sans-serif;
+// $font-family-serif: 'Roboto Slab', Georgia, Cambria, "Times New Roman", Times, serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
-// $font-weight-normal: normal;
-// $font-weight-bold: bold;
+$font-weight-normal: 300;
+$font-weight-bold: 400;
 
 // $white       : #FFFFFF;
 // $ghost       : #FAFAFA;
@@ -116,12 +118,12 @@ $font-family-serif: 'Roboto Slab', Georgia, Cambria, "Times New Roman", Times, s
 // $black       : #000000;
 
 // We use these as default colors throughout
-// $primary-color: #008CBA;
-// $secondary-color: #e7e7e7;
+$primary-color: #3498DB;
+$secondary-color: #82b9c8;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
-// $info-color: #a0d3e8;
+$info-color: #1ABC9C;
 
 // We use these to control various global styles
 // $body-bg: $white;
@@ -210,7 +212,7 @@ $font-family-serif: 'Roboto Slab', Georgia, Cambria, "Times New Roman", Times, s
 // $include-html-type-classes: $include-html-classes;
 
 // We use these to control header font styles
-$header-font-family: $font-family-serif;
+// $header-font-family: $font-family-sans-serif;
 // $header-font-weight: $font-weight-normal;
 // $header-font-style: normal;
 // $header-font-color: $jet;

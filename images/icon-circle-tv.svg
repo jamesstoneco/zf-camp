@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-circle-tv</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ZFC-V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g sketch:type="MSArtboardGroup" transform="translate(-977.000000, -2346.000000)" id="When-&amp;-Where">
+            <g sketch:type="MSLayerGroup" transform="translate(0.000000, 2165.000000)">
+                <g id="icon-circle-tv" transform="translate(977.000000, 181.000000)" sketch:type="MSShapeGroup">
+                    <circle id="Oval-10-Copy-2" stroke="#BDC3C7" cx="30" cy="30" r="30"></circle>
+                    <circle id="Oval-10-Copy-3" stroke="#1ABC9C" stroke-width="0.5" cx="30" cy="30" r="27"></circle>
+                    <g id="thin-0592_tv_televison_movie_news-copy" transform="translate(17.142857, 16.428571)">
+                        <g id="Group" transform="translate(0.620690, 0.443350)" stroke="#66655D">
+                            <circle id="Oval" cx="20.8643586" cy="11.2625734" r="1.2312"></circle>
+                            <path d="M15.7605872,9.66523744 C16.5243547,9.66523744 17.0987232,10.2836571 17.0987232,11.0462542 L17.0987232,20.950333 C17.0987232,21.7132493 16.5242483,22.4337103 15.7605872,22.4337103 L3.5838266,22.4337103 C2.82091034,22.4337103 2.20227783,21.7132493 2.20227783,20.950333 L2.20227783,11.0462542 C2.20227783,10.2836571 2.82091034,9.66523744 3.5838266,9.66523744 L15.7605872,9.66523744 L15.7605872,9.66523744 Z" id="Shape"></path>
+                            <path d="M22.6264079,7.53715862 C23.6688473,7.53715862 24.5471054,8.32167488 24.5471054,9.36251823 L24.5471054,22.5023409 C24.5471054,23.5437163 23.6688473,24.5617892 22.6264079,24.5617892 L2.05065222,24.5617892 C1.00927685,24.5617892 0.0740926108,23.5437163 0.0740926108,22.5023409 L0.0740926108,9.36251823 C0.0740926108,8.32167488 1.00917044,7.53715862 2.05065222,7.53715862 L22.6264079,7.53715862 L22.6264079,7.53715862 Z" id="Shape"></path>
+                            <path d="M7.98107586,2.13151921 L12.1833931,7.53715862 L16.3853911,2.13151921" id="Shape"></path>
+                            <circle id="Oval" cx="17.0261557" cy="1.30720788" r="1.04829163"></circle>
+                            <circle id="Oval" cx="7.34041773" cy="1.30720788" r="1.04829163"></circle>
+                        </g>
+                        <rect id="Rectangle-path" x="0.162868966" y="0.000212807882" width="25.5369458" height="25.5369458"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
