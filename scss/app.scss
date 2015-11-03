@@ -52,6 +52,33 @@
 }
 
 
+h2 {
+	font-size: rem-calc(24);
+	text-transform: uppercase;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: rem-calc(5);
+	line-height: rem-calc(27);
+}
+
+p.subhead {
+	font-size: rem-calc(15);
+	color: $cool-grey;
+	font-weight: 400;
+	text-align: center;
+
+}
+
+p.leadin {
+	font-size: rem-calc(18);
+	font-weight: 400;
+	margin-bottom: rem-calc(20);
+	&.flush {
+		margin-bottom: rem-calc(5);
+	}
+}
+
+
 header {
 	height: rem-calc(650);
 	width: 100%;
@@ -71,29 +98,29 @@ header {
 		}
 		ul {
 			list-style:none;
-			    margin:0;
-			    padding: 0;
+			margin:0;
+			padding: 0;
 			padding-top: rem-calc(63);
 			text-align:center;
 			li { 
 				display:inline;
-			    margin:0;
-			    padding: 0;
-				 }
+				margin:0;
+				padding: 0;
+			}
 			a {
-			    display:inline-block;
-			    padding-left: rem-calc(20);
-			    padding-right: rem-calc(20);
-			    margin:0;
-			    color: #FFF;
-			    font-size: rem-calc(14);
-			    font-weight: 600;
-					text-transform: uppercase;
+				display:inline-block;
+				padding-left: rem-calc(20);
+				padding-right: rem-calc(20);
+				margin:0;
+				color: #FFF;
+				font-size: rem-calc(14);
+				font-weight: 600;
+				text-transform: uppercase;
 
-			    &:hover {
-			    	color: rgba(#FFF, 0.8);
-			    	
-			    }
+				&:hover {
+					color: rgba(#FFF, 0.8);
+
+				}
 			}
 
 		}
@@ -103,15 +130,15 @@ header {
 			top: rem-calc(51);
 			padding: rem-calc(11 30 11 29);
 			font-size: rem-calc(15);
-											    font-weight: 600;
+			font-weight: 600;
 
 		}
 	}
 	section.hero {
 		text-align: center;
 		h1, p {
-		color: #FFF;
-		 }
+			color: #FFF;
+		}
 		h1 {
 			padding-top: rem-calc(177);
 			font-size: rem-calc(28);
@@ -130,4 +157,64 @@ header {
 			font-weight: 600;
 		}
 	}
+}
+
+section.what {
+	padding-top: rem-calc(70);
+	padding-bottom: rem-calc(70);
+	ul {
+		list-style:none;
+		margin:0;
+		padding: 0;
+		padding-top: rem-calc(63);
+		text-align:left;
+		li { 
+			display:inline-block;
+			margin:0;
+			padding-right: rem-calc(10);
+		}
+	}
+
+	div.yeti {
+		position:relative;
+		top: 0;
+		left: 70%;
+		background: url('../images/yeti-screens.svg');
+		background-size: 100%;
+		background-position: top left;
+		background-repeat: no-repeat;
+		width: rem-calc(565); // same as svg box
+		height: rem-calc(358);
+
+	}
+
+}
+
+section.why {
+		padding-top: rem-calc(70);
+		padding-bottom: rem-calc(70);
+		background: $light-grey;
+		ul li {
+			margin-bottom: rem-calc(12);
+		}
+
+
+}
+
+section.who {
+		padding-top: rem-calc(70);
+		padding-bottom: rem-calc(70);
+		p.leadin {
+			padding-top: rem-calc(20);
+		}
+}
+
+.profile-image {
+	border-radius: 9999px;
+	padding: rem-calc(15);
+	position: realtive;
+}
+
+a {
+	font-weight: 400;
 }

@@ -34,3 +34,5 @@ ga('create', 'UA-44860221-17', 'auto');
 ga('send', 'pageview');
 
 Socialite.load();
+
+$(document).foundation();
