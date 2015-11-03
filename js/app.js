@@ -36,3 +36,11 @@ ga('send', 'pageview');
 Socialite.load();
 
 $(document).foundation();
+
+$('.lazyYT').lazyYT();
+
+$('.scroll-to-section').on('click', function() {
+    $('html, body').animate({
+        scrollTop: $("#" + $(this).data('section-id')).offset().top
+    }, 800);
+3});

@@ -43,9 +43,16 @@
 // @import "foundation/components/visibility";
 
 
+@import "lazy-yt";
+
+
 // * { border: solid 1px #f00; }
 .flush-bottom { margin-bottom: 0; }
 a { font-weight: 400; }
+.flex-video.widescreen { padding-top: rem-calc(5); }
+p, ul li {
+	line-height: 1.4;
+}
 
 .inline-list.centered {
 	display: table;

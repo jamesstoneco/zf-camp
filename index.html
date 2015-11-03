@@ -16,10 +16,10 @@
     <nav>
       <img src="images/zf-camp-logo.svg" alt="">
       <ul>
-        <li><a href="#show-me-what">What</a></li>
-        <li><a href="#show-me-why">Why</a></li>
-        <li><a href="#show-me-who">Who</a></li>
-        <li><a href="#show-me-when">When &amp; Where</a></li>
+        <li><a class="scroll-to-section" data-section-id="show-me-what">What</a></li>
+        <li><a class="scroll-to-section" data-section-id="show-me-why">Why</a></li>
+        <li><a class="scroll-to-section" data-section-id="show-me-who">Who</a></li>
+        <li><a class="scroll-to-section" data-section-id="show-me-when">When &amp; Where</a></li>
       </ul>
       <a data-reveal-id="reserve-your-spot" class="button info round hollow">Reserve your spot</a>
     </nav>
@@ -28,7 +28,7 @@
 
       <h1>ZURB Foundation Workshop <span class="date">November 14th - 15th, 2015</span></h1>
       <p>Come to Silicon Valley to take the workshop in-person or attend online</p>
-      <a href="#show-me-what" class="button hollow">Tell me more</a>
+      <a data-section-id="show-me-what" class="button hollow scroll-to-section">Tell me more</a>
 
     </div>
     
@@ -64,9 +64,10 @@
     <p class="subhead">Here's why you should join us</p>
     <div class="row">
       <div class="medium-5 columns">
-        ￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
         <div class="flex-video widescreen">
-          <iframe width="420" height="315" src="https://www.youtube.com/embed/kk6KpKK5Jjc?rel=0" frameborder="0" allowfullscreen></iframe>
+          <div class="lazyYT" data-youtube-id="kk6KpKK5Jjc" data-parameters="rel=0">loading...</div>
+
+          <!-- <iframe width="420" height="315" src="https://www.youtube.com/embed/kk6KpKK5Jjc?rel=0" frameborder="0" allowfullscreen></iframe> -->
         </div>
 
         <p class="text-center">Take a look at James' Grid Video with 37k+ views</p>
@@ -265,9 +266,9 @@
 
 <!-- Size Classes: [small medium large xlarge expand] -->
 <div id="reserve-your-spot" class="reveal-modal" data-reveal>
-  <h2>Awesome. I have it.</h2>
-  <p class="lead">Your couch.  It is mine.</p>
-  <p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
+  <h2>Thank you for your interest</h2>
+  <p class="lead">Sales for ZURB Foundation Camp have not opened yet.</p>
+  <p>Be sure to check back soon...</p>
   <a class="close-reveal-modal">&#215;</a>
 </div>
 
@@ -299,6 +300,7 @@
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/foundation/js/foundation.min.js"></script>
   <script src="bower_components/socialite-js/socialite.min.js"></script>
+  <script src="js/vendor/lazyYT.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
