@@ -75,9 +75,7 @@ html {
 .flush-bottom { margin-bottom: 0; }
 a { font-weight: 400; }
 .flex-video.widescreen { padding-top: rem-calc(5); }
-p, ul li {
-	line-height: 1.4;
-}
+p, ul li { line-height: 1.4; }
 
 .inline-list.centered {
 	display: table;
@@ -114,7 +112,12 @@ p.leadin {
 }
 
 header {
-	height: rem-calc(650);
+	@media #{$small-only} {
+		padding-bottom: rem-calc(25);
+	}
+	@media #{$medium-up} {
+		height: rem-calc(650);
+	}
 	background: url('../images/background-hero-image.jpg') $secondary-color;
 	background-size: cover;
 	background-position: center center;
@@ -122,11 +125,21 @@ header {
 	text-align: center;
 	nav {
 		position: relative;
-		height: rem-calc(100);
+		@media #{$medium-up} {
+
+			height: rem-calc(100);
+		}
 		img {
-			position: absolute;
-			left: rem-calc(50);
-			top: rem-calc(36);
+			@media #{$small-only} {
+				width: 65% !important;
+				height: auto !important;
+				padding-top: rem-calc(30);
+			}
+			@media #{$medium-up} {
+				position: absolute;
+				left: rem-calc(50);
+				top: rem-calc(36);
+			}
 		}
 		ul {
 			list-style:none;
@@ -168,9 +181,16 @@ header {
 			text-align: center;
 		}
 		h1 {
-			padding-top: rem-calc(177);
+			@media #{$small-only} {
+				padding-top: rem-calc(50);
+			}
+			@media #{$medium-up} {
+
+				padding-top: rem-calc(177);
+			}
 			font-size: rem-calc(28);
 			font-weight: 600;
+			line-height: 1.2;
 		}
 		p { font-weight: 400; }
 		a.button {
@@ -189,30 +209,66 @@ section {
 	padding-bottom: rem-calc(70);
 }
 
+@media #{$small-only} {
+	section.what .yeti { display: hidden; }
+	section.who, section.when { text-align: center; }
+	section.when {
+		img {
+			padding-top: rem-calc(30);
+			padding-bottom: rem-calc(15);
+		}
+	}
+
+}
+
 section.what {
 	ul {
 		list-style:none;
 		margin:0;
 		padding: 0;
-		padding-top: rem-calc(63);
-		text-align:left;
+		@media #{$small-only} { 
+			padding-top: rem-calc(15);
+			text-align:center;
+		}
+		@media #{$medium-up} { 
+			padding-top: rem-calc(63);
+			text-align:left;
+		}
 		li { 
 			display:inline-block;
 			margin:0;
 			padding-right: rem-calc(10);
+			margin-bottom: rem-calc(15);
 		}
 	}
 
 	div.yeti {
-		position:relative;
-		top: 0;
-		left: 70%;
-		background: url('../images/yeti-screens.svg');
-		background-size: 100%;
-		background-position: top left;
-		background-repeat: no-repeat;
-		width: rem-calc(565); // same as svg box
-		height: rem-calc(358);
+		@media #{$small-only} {
+			position:relative;
+			top: rem-calc(0);
+			left: rem-calc(75);
+			display: inline-block;
+			margin-left: rem-calc(15);
+			margin-right: rem-calc(15);
+			background: url('../images/yeti-screens.svg');
+			background-size: 100%;
+			background-position: top left;
+			background-repeat: no-repeat;
+			z-index: -1000;
+			width: rem-calc(565);
+			height: rem-calc(358);
+		}
+		@media #{$medium-up} {
+			position:relative;
+			top: 0;
+			left: 70%;
+			background: url('../images/yeti-screens.svg');
+			background-size: 100%;
+			background-position: top left;
+			background-repeat: no-repeat;
+			width: rem-calc(565);
+			height: rem-calc(358);
+		}
 	}
 }
 
@@ -225,7 +281,7 @@ section.who p.leadin { padding-top: rem-calc(20); }
 
 section.when {
 	background: $light-grey;
-	p.subhead { margin-bottom: rem-calc(50); }
+	@media #{$medium-up} { p.subhead { margin-bottom: rem-calc(50); } }
 	p.leadin { font-size: rem-calc(16); }
 	p { margin-bottom: 0; }
 }
