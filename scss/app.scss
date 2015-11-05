@@ -112,12 +112,8 @@ p.leadin {
 }
 
 header {
-	@media #{$small-only} {
-		padding-bottom: rem-calc(25);
-	}
-	@media #{$medium-up} {
-		height: rem-calc(650);
-	}
+	@media #{$small-only} { padding-bottom: rem-calc(25); }
+	@media #{$medium-up} { height: rem-calc(650); }
 	background: url('../images/background-hero-image.jpg') $secondary-color;
 	background-size: cover;
 	background-position: center center;
@@ -125,10 +121,7 @@ header {
 	text-align: center;
 	nav {
 		position: relative;
-		@media #{$medium-up} {
-
-			height: rem-calc(100);
-		}
+		@media #{$medium-up} { height: rem-calc(100); }
 		img {
 			@media #{$small-only} {
 				width: 65% !important;
@@ -243,21 +236,6 @@ section.what {
 	}
 
 	div.yeti {
-		@media #{$small-only} {
-			position:relative;
-			top: rem-calc(0);
-			left: rem-calc(75);
-			display: inline-block;
-			margin-left: rem-calc(15);
-			margin-right: rem-calc(15);
-			background: url('../images/yeti-screens.svg');
-			background-size: 100%;
-			background-position: top left;
-			background-repeat: no-repeat;
-			z-index: -1000;
-			width: rem-calc(565);
-			height: rem-calc(358);
-		}
 		@media #{$medium-up} {
 			position:relative;
 			top: 0;
