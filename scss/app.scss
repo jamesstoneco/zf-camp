@@ -48,17 +48,17 @@
 // FOAT
 
 .wf-loading { 
-	& h1, & h2, & p, & header .button, & ul li a, & section.why ul li, & header img {
+	& h1, & h2, & p, & header .button, & ul li a, & section.why ul li, & header img, & section.reverse-classroom ul li {
 		opacity: 0;
 	}
 }
 .wf-active { 
-	& h1, & h2, & p, & header .button, & ul li a, & section.why ul li, & header img {
+	& h1, & h2, & p, & header .button, & ul li a, & section.why ul li, & header img, & section.reverse-classroom ul li {
 		opacity: 1;
 	}
 }
 html {
-	& h1, & h2, & p, & header .button, & ul li a, & section.why ul li, & header img {
+	& h1, & h2, & p, & header .button, & ul li a, & section.why ul li, & header img, & section.reverse-classroom ul li {
 		transition: opacity 0.3s ease-in-out;
 		-moz-transition: opacity 0.3s ease-in-out;
 		-webkit-transition: opacity 0.3s ease-in-out;
@@ -323,6 +323,33 @@ section.when {
 	p.leadin { font-size: rem-calc(16); }
 	p { margin-bottom: 0; }
 }
+
+section.reverse-classroom {
+	p { margin-bottom: rem-calc(50); }
+	.flex-video { margin-bottom: rem-calc(3); }
+	ul {
+		margin-bottom: 0;
+		& li {
+			margin-bottom: rem-calc(15);
+			&:nth-last-child(1) { margin-bottom: 0; }
+		}
+	}
+}
+
+.vertical-container {
+	display: table;
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+}
+
+.vertical-center {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+// .vertical { margin:0 auto; }
+
 
 section.included .button {
 	padding: rem-calc(11 30 11 29);
