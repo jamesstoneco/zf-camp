@@ -209,7 +209,7 @@ footer {
 	img {
 		position: absolute;
 		top: rem-calc(53);
-		left: 0;
+		left: $column-gutter/2;
 	}
 	background: $warm-grey;
 
@@ -224,7 +224,7 @@ footer {
 	ul {
 		position: absolute;
 		top: 0;
-		right: 0;
+		right: $column-gutter/2;
 		list-style:none;
 		margin:0;
 		padding: 0;
