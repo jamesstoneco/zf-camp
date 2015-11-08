@@ -1,5 +1,3 @@
-// $(document).foundation();
-
 var getUrlParameter = function getUrlParameter(sParam) {
 	var sPageURL = decodeURIComponent(window.location.search.substring(1)),
 	sURLVariables = sPageURL.split('&'),
@@ -18,8 +16,12 @@ var getUrlParameter = function getUrlParameter(sParam) {
 $(document).ready(function () {
 	if (getUrlParameter('discount')) {
 		var discount = getUrlParameter('discount');
-		var iFrameSrc = $('#eventbrite-iframe').attr('src');
-		$('#eventbrite-iframe').attr('src', iFrameSrc + "&discount=" + discount );
+		$('.cta-reserve').each( function() {
+			$(this).attr('href', 'https://gum.co/zfcamp/' + discount + '?wanted=true');
+
+		})
+		// var iFrameSrc = $('#eventbrite-iframe').attr('src');
+		// $('#eventbrite-iframe').attr('src', iFrameSrc + "&discount=" + discount );
 	}
 });
 
