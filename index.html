@@ -156,7 +156,7 @@
               <br>
               <strong>All times are US Pacific</strong>
               <br>
-              (<a href="http://www.worldtimebuddy.com/event?lid=5350734&h=5350734&sts=24119040&sln=9.5-17.5&a=show&euid=1623e33d-3366-8d34-351a-4ea8aa812670" target="_blank">show in your timezone</a>)
+              (<a data-reveal-id="timezone-event">show in your timezone</a>)
             </p>
           </div>
         </div>
@@ -198,7 +198,7 @@
     <p class="subhead">Attending live but want to get more out of the experience?</p>
 
 
-    <p class="text-center">Two weeks after the workshop there will be two live 1.5 hour sesssions, 8am pacific (<a href="http://www.worldtimebuddy.com/event?lid=5350734&h=5350734&sts=24116160&sln=8-9.5&a=show&euid=b44b82e2-4220-edb4-6527-062e98da3813" target="_blank">show in your timezone</a>) and 3pm pacific (<a href="http://www.worldtimebuddy.com/event?lid=5350734&h=5350734&sts=24116160&sln=15-16.5&a=show&euid=fd417327-6e5d-af54-6d12-4c0d7f18863d" target="_blank">show in your timezone</a>).</p>
+    <p class="text-center">Two weeks after the workshop there will be two live 1.5 hour sesssions, 8am pacific and 3pm pacific (<a data-reveal-id="timezone-reverse-classroom">show in your timezone</a>).</p>
 
 
     <div class="row" data-equalizer>
@@ -255,7 +255,7 @@
 
      <div class="row">
       <div class="medium-4 columns medium-offset-2">
-      <img src="images/test-michael.jpg" alt="Photo of Michael Stevenson">
+        <img src="images/test-michael.jpg" alt="Photo of Michael Stevenson">
         <p class="name">Michael Stevenson</p>
         <p>Throughout James' ZURB Foundation workshop, you'll also have the opportunity to soak up tips and tricks on copywriting, efficient coding workflows, the latest apps and software, and other tech wizardry that James can't help but share. He's a guy with a lot of experience, a natural teacher, and it shows. Anyone who sits in a classroom with him will leave inspired at the end of the day.</p>
       </div>
@@ -367,19 +367,41 @@
     </li>
   </ul>
 
- -->    <p class="text-center">Copyright 2015, James Stone Intermedia, All Rights Reserved.</p>
-  </div>
+-->    <p class="text-center">Copyright 2015, James Stone Intermedia, All Rights Reserved.</p>
+</div>
+
+<div id="timezone-event" class="reveal-modal medium" data-reveal>
+  <br>
+  <p class="text-center">
+    <span class="wtb-ew-v1" style="width: 100%; display:inline-block"><script src="http://www.worldtimebuddy.com/event_widget.js?h=5350734&md=11/21/2015&mt=9.50&ml=8.00&sts=0&sln=0&wt=ew-ltc"></script><i><a target="_blank" href="http://www.worldtimebuddy.com/">Time converter</a> at worldtimebuddy.com</i><noscript><a href="http://www.worldtimebuddy.com/">Time converter</a> at worldtimebuddy.com</noscript><script>window[wtb_event_widgets.pop()].init()</script></span>
+  </p>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<div id="timezone-reverse-classroom" class="reveal-modal medium" data-reveal>
+  <br>
+  <h2>Session 1</h2>
+  <p class="text-center">
+    <span class="wtb-ew-v1" style="width: 100%; display:inline-block"><script src="http://www.worldtimebuddy.com/event_widget.js?h=5350734&md=12/05/2015&mt=8.0&ml=1.50&sts=0&sln=0&wt=ew-ltc"></script><i><a target="_blank" href="http://www.worldtimebuddy.com/">Time converter</a> at worldtimebuddy.com</i><noscript><a href="http://www.worldtimebuddy.com/">Time converter</a> at worldtimebuddy.com</noscript><script>window[wtb_event_widgets.pop()].init()</script></span>
+  </p>
+  <h2>Session 2</h2>
+  <p class="text-center">
+    <span class="wtb-ew-v1" style="width: 100%; display:inline-block"><script src="http://www.worldtimebuddy.com/event_widget.js?h=5350734&md=12/05/2015&mt=15.0&ml=1.50&sts=0&sln=0&wt=ew-ltc"></script><i><a target="_blank" href="http://www.worldtimebuddy.com/">Time converter</a> at worldtimebuddy.com</i><noscript><a href="http://www.worldtimebuddy.com/">Time converter</a> at worldtimebuddy.com</noscript><script>window[wtb_event_widgets.pop()].init()</script></span>
+  </p>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
 
 
-  <script src="bower_components/jquery/dist/jquery.min.js"></script>
-  <!-- <script src="bower_components/foundation/js/foundation.min.js"></script> -->
-  <script src="bower_components/foundation/js/foundation/foundation.js"></script>
-  <script src="bower_components/foundation/js/foundation/foundation.equalizer.js"></script>
-  <script src="bower_components/foundation/js/foundation/foundation.abide.js"></script>
-  <script src="bower_components/socialite-js/socialite.min.js"></script>
-  <script src="js/vendor/lazyYT.js"></script>
-  <script src="js/app.js"></script>
-  <script type="text/javascript" src="https://gumroad.com/js/gumroad.js" defer></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<!-- <script src="bower_components/foundation/js/foundation.min.js"></script> -->
+<script src="bower_components/foundation/js/foundation/foundation.js"></script>
+<script src="bower_components/foundation/js/foundation/foundation.equalizer.js"></script>
+<script src="bower_components/foundation/js/foundation/foundation.abide.js"></script>
+<script src="bower_components/foundation/js/foundation/foundation.reveal.js"></script>
+<script src="bower_components/socialite-js/socialite.min.js"></script>
+<script src="js/vendor/lazyYT.js"></script>
+<script src="js/app.js"></script>
+<script type="text/javascript" src="https://gumroad.com/js/gumroad.js" defer></script>
 
 </body>
 </html>
